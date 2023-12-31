@@ -138,6 +138,7 @@ public class sqlDB extends CordovaPlugin {
                         myOutput.close();
                         myInput.close();
                         try {
+                            response.put("dbpath", dbpath);
                             response.put("message", "Db Copied");
                             response.put("code", 200);
                             plresult = new PluginResult(PluginResult.Status.OK,response);
