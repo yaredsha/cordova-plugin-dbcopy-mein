@@ -1,4 +1,4 @@
-cordova-plugin-dbcopy
+cordova-plugin-dbcopy-mein
 =====================
 
 Add a prepopulated SQLite database in your Phonegap/Cordova Android and iOS app.
@@ -26,7 +26,7 @@ The database file must be present inside the www folder.
 
 Plugin can be install with simple cordova plugin add command -
 
-    cordova plugin add https://github.com/an-rahulpandey/cordova-plugin-dbcopy.git
+    cordova plugin add https://github.com/an-rahulpandey/cordova-plugin-dbcopy-mein.git
 
 
 ### Plugin Response Success and Error
